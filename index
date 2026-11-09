@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nizamoğlu İcmal | Nizamoğlu Yazılım</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f4f7fb;
+      color: #17243b;
+      font: 16px/1.7 system-ui, sans-serif;
+    }
+    main {
+      max-width: 860px;
+      margin: 60px auto;
+      padding: 36px;
+      background: white;
+      border-radius: 24px;
+      box-shadow: 0 15px 60px #18345612;
+    }
+    .brand { color: #52627a; font-weight: 600; }
+    h1 { font-size: clamp(28px, 6vw, 42px); line-height: 1.2; }
+    h2 { margin-top: 30px; font-size: 22px; }
+    a { color: #245bd6; }
+    footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid #e5eaf2; }
+    @media (max-width: 600px) {
+      main { margin: 16px; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Nizamoğlu Yazılım</div>
+    <h1>Nizamoğlu İcmal</h1>
+    <p>Android cihazlar için dosya İcmali, yerel ağ üzerinden
+      dosya paylaşımı ve Google Drive klasör eşitleme uygulaması.</p>
+
+    <h2>Dosyalarınızı yönetin</h2>
+    <p>Telefonunuzdaki dosya ve klasörleri görüntüleyin, kopyalayın,
+      taşıyın ve depolama kullanımını inceleyin.</p>
+
+    <h2>Wi-Fi üzerinden erişin</h2>
+    <p>Paylaşımı telefonunuzdan başlatarak aynı yerel ağdaki bilgisayar
+      veya telefonun tarayıcısından dosyalarınıza erişin.
+      Dosya yükleme, indirme ve ZIP olarak indirme işlemlerini kullanın.</p>
+
+    <h2>Google Drive ile eşitleyin</h2>
+    <p>Seçtiğiniz telefon ve Drive klasörleri arasında telefondan buluta,
+      buluttan telefona veya iki yönlü eşitleme kuralları oluşturun.</p>
+    <p>Google Drive izni; bulut klasörlerini listelemek, dosyaları okumak,
+      indirmek, yüklemek ve eşitleme sırasında güncellemek için istenir.
+      Google hesabınızın parolası uygulama tarafından alınmaz;
+      yetkilendirme Google üzerinden yapılır.</p>
+
+    <h2>İletişim</h2>
+    <p>Geliştirici: Tamer Nizamoğlu — Nizamoğlu Yazılım<br>
+      <a href="mailto:tamernizamoglu@gmail.com">tamernizamoglu@gmail.com</a>
+    </p>
+
+    <footer>
+      <a href="privacy.html">Gizlilik Politikası</a>
+      ·
+      <a href="terms.html">Kullanım Koşulları</a>
+    </footer>
+  </main>
+</body>
+</html>
